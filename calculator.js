@@ -736,8 +736,8 @@ const soglieInpsToPercentualeMarginale = {
 
 const RegolaImponibile = {
     STANDARD: 1,
-    NORD: 0.3,
-    MEZZOGIORNO: 0.1,
+    NORD: 0.5,
+    MEZZOGIORNO: 0.5,
 }
 
 const regioneToRegola = {

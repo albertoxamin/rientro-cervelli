@@ -77,7 +77,7 @@ function fillTableTaxes(ral) {
 
     $('#imponibileIrpefS').text(Math.round(imponibileIrpefS/mensilita));
     $('#imponibileIrpefC').text(Math.round(imponibileIrpefC/mensilita));
-    const percentualeImponibile = regioneToRegola[regione] === 0.1 ? "90%" : "70%";
+    const percentualeImponibile = regioneToRegola[regione] === 0.1 ? "50%" : "50%";
     $('#percentualeImponibile').text(percentualeImponibile);
 
     const standardIrpef = calcolaIrpef(imponibileIrpefS);
